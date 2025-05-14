@@ -1,0 +1,9 @@
+Ans 1 : version control system helps in trying new ideas very safely without affecting the main work , it also helps in tracking changes ,it also helps different people to work on the same project ,we can also go back to the previous version if mistales are made in new versions.
+Ans 2 : in centralized vcs there is one central server that holds code and everyone can works by connecting the same server while in distributed vcs everyone has the copy of code in their computers(history) as well as on the server ,it is more safer as the srever crashes everyone has copy of code in their computer.
+Ans 3 :git is a distributed version control system that helps to track the changes in code and it is running on your computer while github is the online website where you can store your projects online 
+Ans 4 :The staging area is like a waiting room for your changes before you save them in Git,The staging area lets you choose which changes to save (commit), so you have more control.
+Ans 5 :The .git folder is a hidden folder that Git creates to track your project. It contains everything Git needs to manage versions, it contains Your file history,Your branches,Your commits,What’s staged and also shows the head (current working branch).
+Ans 6 : Git branching lets you create a separate line of work in your project,and by default "master"is the branch of the project .command to create a new branch -"git branch newbranchname"and command for switching from one branch to another -"git checkout new".
+Ans 7 : git reset helps to revert the head and shifts the head to previous commit whithout deleting that commit on the other hand git reset--hard shift the head to previous commit and also delets that commit.
+Ans 8 : A squash merge combines all the commits from a branch into one single commit before adding it to the main branch,we can use it when we wnts to clean up the messey history and makes the main branch history simple and tidy .
+Ans 9 :
