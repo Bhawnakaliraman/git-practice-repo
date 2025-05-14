@@ -6,4 +6,4 @@ Ans 5 :The .git folder is a hidden folder that Git creates to track your project
 Ans 6 : Git branching lets you create a separate line of work in your project,and by default "master"is the branch of the project .command to create a new branch -"git branch newbranchname"and command for switching from one branch to another -"git checkout new".
 Ans 7 : git reset helps to revert the head and shifts the head to previous commit whithout deleting that commit on the other hand git reset--hard shift the head to previous commit and also delets that commit.
 Ans 8 : A squash merge combines all the commits from a branch into one single commit before adding it to the main branch,we can use it when we wnts to clean up the messey history and makes the main branch history simple and tidy .
-Ans 9 :
+Ans 9 :git rebase moves your branch to the latest version of another branch (usually main) and re-applies your changes on top of it.
