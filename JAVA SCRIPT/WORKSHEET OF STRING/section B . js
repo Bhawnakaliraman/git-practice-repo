@@ -1,0 +1,21 @@
+// 1. Template literal
+console.log(`Hello Riya, you scored 92 in Web Development!`);
+
+// 2. Name string
+let name = "YourName";
+console.log(name);
+
+// 3. Combine strings
+console.log("Alpha" + "Intern");
+
+// 4. 4th character
+console.log("AlphaIntern"[3]); // Index starts from 0
+
+// 5. Uppercase
+console.log("backend developer".toUpperCase());
+
+// 6. Lowercase
+console.log("MERN STACK".toLowerCase());
+
+// 7. Length
+console.log("AlphaIntern".length);
