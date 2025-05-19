@@ -2,7 +2,7 @@
 console.log(`Hello Riya, you scored 92 in Web Development!`);
 
 // 2. Name string
-let name = "YourName";
+let name = "BHAWNA";
 console.log(name);
 
 // 3. Combine strings

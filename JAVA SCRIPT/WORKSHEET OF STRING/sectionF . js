@@ -1,0 +1,29 @@
+// 1.
+console.log("I love coding".split(" "));
+
+// 2.
+console.log("Alpha".split(""));
+
+// 3.
+console.log("A".charCodeAt(0)); // 65
+
+// 4.
+console.log(["web", "dev"].join(" "));
+
+// 5a.
+console.log("JavaScript is Awesome".toLowerCase());
+
+// 5b.
+console.log("JavaScript is Awesome".toUpperCase());
+
+// 5c.
+console.log("JavaScript is Awesome".replace("Awesome", "Powerful"));
+
+// 5d.
+console.log("JavaScript is Awesome".startsWith("Java"));
+
+// 6.
+console.log("AlphaIntern WebDev".split(" ")[1]);
+
+// 7.
+console.log("apple, banana, grape".split(", "));

@@ -1,0 +1,14 @@
+// 1.
+console.log("AlphaIntern".replace("Intern", "Mentor"));
+
+// 2.
+console.log("banana".replaceAll("a", "z"));
+
+// 3.
+console.log(" JavaScript is awesome ".trim());
+
+// 4.
+console.log("AlphaIntern".slice(5)); // from index 5 to end
+
+// 5.
+console.log("AlphaIntern".slice(0, 5)); // from 0 to 4

@@ -1,0 +1,48 @@
+// 1. Count vowels in a given string
+function countVowels(str) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log("1. Vowel Count:", countVowels("JavaScript is cool"));
+
+
+// 2. Reverse a string
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+console.log("2. Reversed:", reverseString("AlphaIntern"));
+
+
+// 3. Check whether a string is a palindrome
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+console.log("3. Is 'madam' Palindrome?", isPalindrome("madam")); // true
+console.log("   Is 'hello' Palindrome?", isPalindrome("hello")); // false
+
+
+// 4. Capitalize first letter of each word
+function capitalizeWords(sentence) {
+  return sentence
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+console.log("4. Capitalized:", capitalizeWords("i love javascript"));
+
+
+// 5. Count occurrences of "Alpha" using replaceAll() and length
+function countAlphaOccurrences(str) {
+  let originalLength = str.length;
+  let withoutAlpha = str.replaceAll("Alpha", "");
+  let removedLength = originalLength - withoutAlpha.length;
+  return removedLength / "Alpha".length;
+}
+console.log("5. Alpha count:", countAlphaOccurrences("Alpha is great. Alpha rocks. Alpha!"));
